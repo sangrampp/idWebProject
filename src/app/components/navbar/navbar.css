@@ -21,3 +21,20 @@
     z-index: 1000;
     min-height: 75px;
 }
+#main-nav.fixed {
+    position: fixed !important;
+    top: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #404040;
+    padding: 0;
+    line-height: 35px;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #e96656;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+.navbar-brand{
+  padding-top: 0;
+}
