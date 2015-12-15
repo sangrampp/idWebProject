@@ -4,7 +4,7 @@
   padding-left: 0;
   /*min-height: 775px;*/
   background: url('../../assets/images/service-bg.png') 50% 0 repeat;
-  position: relative;
+  position: absolute;
   overflow: hidden;
   min-height: 100vh;
   width: 100%;
@@ -16,6 +16,7 @@
     padding-top: 75px;
     min-height: 100vh;
     width: 100%;
+    position: absolute;
 }
 .light-torq{
   color: #61C4E0;

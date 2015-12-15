@@ -1,8 +1,28 @@
 #testimonials{
-  padding-top: 75px;
+  /*padding-top: 75px;*/
   padding-right: 0;
   padding-left: 0;
   /*min-height: 775px;*/
-  position: relative;
+  position: absolute;
   overflow: hidden;
+  min-height: 100vh;
+  width: 100%;
+  /*background-color: rgba(219,191,86, 0.9);*/
+  background: url('../../assets/images/bg-testimonials.jpg') 50% 0 repeat;;
+}
+#bottom{
+  background: #e96656;
+  height: 10vh;
+}
+#color-overlay {
+    background: rgba(219,191,86, 0.75);
+    /*margin-top: -100px;
+    padding-top: 100px;    */
+    /*padding-top: 75px;*/
+    height: 90vh;
+    width: 100%;
+    padding-top: 75px;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
 }

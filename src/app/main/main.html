@@ -5,7 +5,11 @@
   <div id="image-carousel">
     <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
       <uib-slide ng-repeat="slide in slides" active="slide.active">
-        <div id="img{{slide.id}}"></div>
+        <div id="img{{slide.id}}">
+          <h1 class="intro">Simple, Fresh & Unique design</h1>
+          <h4>Donec posuere vulputate arcu.</h4>
+          <button type="button" class="btn btn-default">SHOW MORE</button>
+        </div>
       </uib-slide>
     </uib-carousel>
   </div>
