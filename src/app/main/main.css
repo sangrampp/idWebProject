@@ -32,6 +32,13 @@ h4{
 .caption{
   padding-top: 25vh;
 }
+.carousel-control.left{
+  background-image: none;
+}
+.carousel-control.right{
+  background-image: none;
+}
+
 #home .carousel #img1 {
     background: url("../../assets/images/bg7.jpg");
     min-width: 100%;
